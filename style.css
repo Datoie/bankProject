@@ -1,4 +1,4 @@
-*{
+*{  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -192,6 +192,8 @@ main{
     .btn {
         padding: 10px 20px; 
         font-size: 15px;
+        font-family: fantasy;
+    
     }
 }
 

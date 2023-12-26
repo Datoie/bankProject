@@ -185,12 +185,12 @@ incorrectInputFunct(submit, cardId, 11);
 incorrectInputFunct(submit, cardZip, 12);
 
 // emal ckerer
-emailCheker(signIn,email, 0);
-emailCheker(submit,email2, 4);
+emailCheker(signIn, email, 0);
+emailCheker(submit, email2, 4);
 
 // data functions
-dateFunct(dd, 2, vaildLabel, 8, 12);
-dateFunct(mm, 2, vaildLabel, 9, 31);
+dateFunct(dd, 2, vaildLabel, 8, 31);
+dateFunct(mm, 2, vaildLabel, 9, 12);
 dateFunct(yy, 4, vaildLabel, 10, currentYear);
 dateFunct(cardZip, 4, vaildLabel, 10);
 dateFunct(cardId, 16, vaildLabel, 10);
